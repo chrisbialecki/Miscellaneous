@@ -41,14 +41,33 @@ namespace Generics
             for (int c = 0; c < 5; c++)
             {
                 intArray.setItem(c, c * 5);
+                
             }
 
             for (int c = 0; c < 5; c++)
             {
                 Console.Write(intArray.getItem(c) + " ");
+                System.Threading.Thread.Sleep(2000);
             }
 
             Console.WriteLine();
+            Console.Read();
+
+            MyGenericArray<char> charArray = new MyGenericArray<char>(5);
+
+            for (int c = 0; c < 5; c++)
+            {
+                charArray.setItem(c, (char)(c + 97));
+            }
+
+            for (int c = 0; c < 5; c++)
+            {
+                Console.Write(charArray.getItem(c) + " ");
+                System.Threading.Thread.Sleep(2000);
+            }
+
+            Console.WriteLine();
+            Console.Read();
         }
     }
 }
