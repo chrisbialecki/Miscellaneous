@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miscellaneous", "Miscellaneous\Miscellaneous.csproj", "{0324FFA1-1206-4988-A0D9-F85A1CF3A21B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{EDFC135A-A6B7-4FCC-8F07-DEFA3FB15531}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pass_Argument_By_Ref", "Pass_Argument_By_Ref\Pass_Argument_By_Ref.csproj", "{2E4A90E6-D8B6-408E-8A48-8099DA31EC25}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0324FFA1-1206-4988-A0D9-F85A1CF3A21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0324FFA1-1206-4988-A0D9-F85A1CF3A21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0324FFA1-1206-4988-A0D9-F85A1CF3A21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0324FFA1-1206-4988-A0D9-F85A1CF3A21B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EDFC135A-A6B7-4FCC-8F07-DEFA3FB15531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EDFC135A-A6B7-4FCC-8F07-DEFA3FB15531}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDFC135A-A6B7-4FCC-8F07-DEFA3FB15531}.Release|Any CPU.ActiveCfg = Release|Any CPU
